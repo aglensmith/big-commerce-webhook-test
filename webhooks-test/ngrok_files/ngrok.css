@@ -1,0 +1,34 @@
+body { padding-top: 70px; }
+
+/* avoid conflicts with the "Ask me a question" dialog */
+#content {
+	padding-bottom: 30px;
+}
+
+pre, code {
+    font-family: Consolas, Menlo, 'Andale Mono', Monaco, monospace; 
+}
+
+/* TODO make these <code> blocks instead of manually monospacing */
+table.params { font-size: 12px; font-family: Consolas, Menlo, 'Andale Mono', Monaco, monospace; }
+.all-requests { line-height: 30px; }
+.round-trip-select { margin-top: 10px; }
+.round-trip-select tr { cursor: pointer; }
+.round-trip-select tr:hover { background-color: #ddd; }
+.nav.nav-pills { margin-bottom: 5px; }
+tr.selected, tr.selected:hover {
+    background-color: #ff9999;
+    background-color: #000000;
+    color:white;
+}
+.path {
+  width: 300px;
+}
+.wrapped {
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow: hidden;
+}
+
+#feedback { position: fixed; bottom:0; right: 300px; }
+#feedback a { display: block; border-top-right-radius: 6px; border-top-left-radius: 6px; padding: 7px 18px 7px 18px; background-color: #dd6F60; color: #fff; }
